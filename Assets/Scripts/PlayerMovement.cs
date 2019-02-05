@@ -28,14 +28,14 @@ public class PlayerMovement : MonoBehaviour
         {
             isCrawling = true;
             animator.SetFloat("Speed", 0f);
-            Speed = 1;
+            Speed = 2;
 
         }
         else if (Input.GetKeyUp(KeyCode.C))
         {
             isCrawling = false;
             animator.SetFloat("Speed", 0f);
-            Speed = 4;
+            Speed = 2;
         }
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 animator.SetFloat("Speed", 1f);
                 SetFloatAnim(hor, ver);
-                Speed = 14;
+                Speed = 15;
             }
             
         }

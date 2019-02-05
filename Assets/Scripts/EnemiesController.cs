@@ -7,6 +7,7 @@ public class EnemiesController : MonoBehaviour
 {
 
     public float lookRadius = 10f;
+    public AudioManager am;
 
     Transform target;
     NavMeshAgent agent;
@@ -27,6 +28,7 @@ public class EnemiesController : MonoBehaviour
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position);
+            am.PlayBackgroundSound();
 
             if(distance <= agent.stoppingDistance)
             { 
