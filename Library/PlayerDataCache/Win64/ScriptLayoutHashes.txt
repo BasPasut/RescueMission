@@ -121,6 +121,7 @@ afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.ThirdPersonCharacterContro
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
+5750ebc5c5645d2b8b31ebdfcee1fd0b Assembly-CSharp.dll:.HostageController
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -154,7 +155,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
-a3b233f35a0dc0fecdb5ccf5361c4be0 Assembly-CSharp.dll:.PlayerMovement
+1a1948ac17b5e33d47b5058d24ed95ef Assembly-CSharp.dll:.PlayerMovement
 4c36947c1a5abf82d5ae65c0c48c3c1a Assembly-CSharp.dll:.AudioManager
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
@@ -163,7 +164,7 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 fd855544222bd3f026536eaee8e46254 Assembly-CSharp.dll:.SceneSelector
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
+f573868c91ad2c20be4b3136e6683e26 Assembly-CSharp.dll:.SpawnScript
 c49bd065d8258c6a2d71b6136adf85a0 Assembly-CSharp.dll:.EnemiesController
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 c55ccef57bd745cdbc35809fff6dcc07 Assembly-CSharp.dll:.HostageManager
-24101887fda890944aefe7a879ed91f1 Assembly-CSharp.dll:.HostageController
