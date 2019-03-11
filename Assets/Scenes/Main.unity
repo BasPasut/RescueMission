@@ -12502,6 +12502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7c8bce6baa4f247bb755b5a014087f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Shell: {fileID: 0}
+  m_FireTransform: {fileID: 0}
   lookRadius: 120
   am: {fileID: 0}
 --- !u!114 &161943378
@@ -22746,6 +22748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HostageAnim: {fileID: 1220694572}
   RescueFin: {fileID: 1450804439}
+  HostageLeft: {fileID: 416454688}
 --- !u!136 &1220694571
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26297,6 +26300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HostageAnim: {fileID: 1332750879}
   RescueFin: {fileID: 1450804439}
+  HostageLeft: {fileID: 416454688}
 --- !u!136 &1332750878
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26882,7 +26886,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1242043386}
-  HostageLeft: {fileID: 416454688}
   RescueBar: {fileID: 1650712386}
   isFinished: 0
   RescueTime: 10
@@ -29528,6 +29531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HostageAnim: {fileID: 1774809811}
   RescueFin: {fileID: 1450804439}
+  HostageLeft: {fileID: 416454688}
 --- !u!136 &1774809810
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -30946,6 +30950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HostageAnim: {fileID: 2064565884}
   RescueFin: {fileID: 1450804439}
+  HostageLeft: {fileID: 416454688}
 --- !u!136 &2064565883
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -31121,6 +31126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HostageAnim: {fileID: 388157372}
   RescueFin: {fileID: 1450804439}
+  HostageLeft: {fileID: 416454688}
 --- !u!1 &2098525125
 GameObject:
   m_ObjectHideFlags: 0

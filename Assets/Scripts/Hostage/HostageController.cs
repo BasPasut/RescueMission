@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class HostageController : MonoBehaviour
 {
     public Animator HostageAnim;
     public PlayerMovement RescueFin;
+    public TextMeshProUGUI HostageLeft;
+    int HostageNumber = 5;
 
     Dictionary<string, int> hash = new Dictionary<string, int>();
     // Start is called before the first frame update
@@ -27,6 +31,10 @@ public class HostageController : MonoBehaviour
                 HostageAnim.gameObject.SetActive(false);
                 RescueFin.isFinished = false;
                 RescueFin.RescueTime = 10;
+                // Debug.Log("check point " + HostageLeft );
+                
+                HostageNumber = HostageNumber - 1;
+                HostageLeft.text = "X" + HostageNumber;
             }
             // RescueFin.hostage = null;
             // RescueFin.isFinished = false;

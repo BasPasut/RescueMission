@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public Animator animator;
-    public TextMeshProUGUI HostageLeft;
+    // public TextMeshProUGUI HostageLeft;
     public Slider RescueBar;
     public bool isFinished = false;
     public float RescueTime = 10;
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     bool isNearHostage;
     bool isRescusing;
     bool isCrawling = false;
-    int HostageNumber = 5;
+    // int HostageNumber = 5;
 
     float RescueMax = 10;
     float RescueCurrent;
@@ -76,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     animator.SetBool("isCPR", false);
                     isFinished = true;
-                    HostageLeft.text = "X" + HostageNumber--;
+                    // HostageLeft.text = "X" + HostageNumber--;
                 }
             }
             else
