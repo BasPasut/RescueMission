@@ -2,30 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
 
     public static int Health = 100;
-
+    public bool isdead = false;
     public GameObject player;
-    public Slider healthBar;
+    public TextMeshProUGUI  healthBar;
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("ReducingHealth", 1, 1);
+        // InvokeRepeating("ReducingHealth", 1, 1);
     }
 
-    void ReducingHealth()
+    public void ReduceHealth()
     {
-        Health -= 20;
-        //healthBar.value = Health;
+        if (!isdead)
+        {    Health -= 20;
+        // Debug.Log(Health);
         
+            healthBar.text = Health.ToString();
+        }
         if(Health <= 0)
-        {
+        {   
+            isdead = true;
             player.GetComponent<Animator>().SetTrigger("isDead");
-            
         }
       
     }

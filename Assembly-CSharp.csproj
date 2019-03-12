@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Scene\SpawnScript.cs" />
     <Compile Include="Assets\Scripts\Scene\ThirdPersonCameraController.cs" />
     <Compile Include="Assets\Scripts\Scene\ThirdPersonCharacterController.cs" />
+    <Compile Include="Assets\Scripts\ShellExplosion.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

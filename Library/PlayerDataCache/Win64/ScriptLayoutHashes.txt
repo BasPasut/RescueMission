@@ -121,7 +121,7 @@ afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.ThirdPersonCharacterContro
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
-5750ebc5c5645d2b8b31ebdfcee1fd0b Assembly-CSharp.dll:.HostageController
+c35348ab6f4c5980438edae67f7fbf3c Assembly-CSharp.dll:.HostageController
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -138,7 +138,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-3d84eb72db31aba6d0d16c8ba05a987b Assembly-CSharp.dll:.PlayerHealth
+1621de465360f9219bfc51360cf32260 Assembly-CSharp.dll:.PlayerHealth
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -165,6 +165,7 @@ fd855544222bd3f026536eaee8e46254 Assembly-CSharp.dll:.SceneSelector
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 f573868c91ad2c20be4b3136e6683e26 Assembly-CSharp.dll:.SpawnScript
-c49bd065d8258c6a2d71b6136adf85a0 Assembly-CSharp.dll:.EnemiesController
+bfc02016524616f149f3a5eb407c8086 Assembly-CSharp.dll:.EnemiesController
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 c55ccef57bd745cdbc35809fff6dcc07 Assembly-CSharp.dll:.HostageManager
+92653f32e8b8f4f06d009b22598b3a46 Assembly-CSharp.dll:Complete.ShellExplosion

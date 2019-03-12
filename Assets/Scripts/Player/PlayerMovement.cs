@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetFloat("Speed", 1f);
             SetFloatAnim(hor, ver);
-            Speed = 50;
+            Speed = 25;
 
         }
 
