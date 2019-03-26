@@ -41,6 +41,15 @@ public class HostageController : MonoBehaviour
         }
 
     }
+    
+    public bool isRecurAllHostage()
+    {
+        if (HostageNumber == 0)
+        {
+            return true;
+        }
+        return false;
+    }
 
 
 }

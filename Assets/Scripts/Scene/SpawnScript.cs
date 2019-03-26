@@ -12,7 +12,7 @@ public class SpawnScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SpawnHostage();
+        Spawn();
     }
 
     public void Awake()
@@ -24,7 +24,7 @@ public class SpawnScript : MonoBehaviour
         }
     }
 
-    void SpawnHostage()
+    void Spawn()
     {
         int spawnIndex;
         for (int i = 0; i < obj.Length; i++)

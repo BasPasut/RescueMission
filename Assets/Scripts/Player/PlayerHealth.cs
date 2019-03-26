@@ -7,7 +7,7 @@ using TMPro;
 public class PlayerHealth : MonoBehaviour
 {
 
-    public static int Health = 100;
+    public int Health = 100;
     public bool isdead = false;
     public GameObject player;
     public TextMeshProUGUI  healthBar;
@@ -39,4 +39,6 @@ public class PlayerHealth : MonoBehaviour
     {
         
     }
+
+    
 }

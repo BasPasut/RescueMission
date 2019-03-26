@@ -9,28 +9,47 @@ public class SceneSelector : MonoBehaviour
 {
     public TextMeshProUGUI SelectionText;
     public List<TextMeshProUGUI> listText = new List<TextMeshProUGUI>();
-    private int index=0;
+    private int index = 0;
+    public PlayerHealth health;
+    public HostageController hostcon;
 
-   public void LeftSelection()
+    private void Update()
     {
-        if(index > 0)
+       if (isDead())
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
+
+    public void LeftSelection()
+    {
+        if (index > 0)
         {
             index--;
             SelectionText.text = listText[index].text;
         }
-    } 
+    }
 
     public void RightSelection()
     {
-        if (index < listText.Count-1)
+        if (index < listText.Count - 1)
         {
             index++;
             SelectionText.text = listText[index].text;
         }
     }
 
-   public void PlayGame()
+    public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public bool isDead()
+    {
+        return health.isdead;
+    }
+    public bool isRecurAll()
+    {
+        return hostcon.isRecurAllHostage();
     }
 }

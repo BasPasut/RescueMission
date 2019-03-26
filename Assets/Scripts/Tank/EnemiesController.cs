@@ -50,7 +50,7 @@ public class EnemiesController : MonoBehaviour
                 if(_timeleft <= 0.0f)
                 {
                     Fire(distance);
-                    _timeleft = 0.8f;
+                    _timeleft = 0.6f;
                 }
             }
         }

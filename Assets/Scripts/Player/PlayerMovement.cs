@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isFinished = false;
     public float RescueTime = 10;
 
-    private float Speed;
+    public float Speed;
     bool isNearHostage;
     bool isRescusing;
     bool isCrawling = false;
