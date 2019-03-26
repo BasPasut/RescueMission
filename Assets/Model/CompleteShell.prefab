@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 5409530}
   - component: {fileID: 10833074}
   - component: {fileID: 1834237896368324618}
-  - component: {fileID: 3642275121758169734}
   m_Layer: 0
   m_Name: CompleteShell
   m_TagString: Untagged
@@ -166,33 +165,12 @@ MonoBehaviour:
   m_PlayerMask:
     serializedVersion: 2
     m_Bits: 1
-  m_ExplosionParticles: {fileID: 0}
+  m_ExplosionParticles: {fileID: 198540207889710882}
   m_ExplosionAudio: {fileID: 0}
   m_MaxDamage: 100
   m_ExplosionForce: 1000
   m_MaxLifeTime: 2
   m_ExplosionRadius: 100
---- !u!114 &3642275121758169734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9398ae7aa26d1b7498872d3dfcc74359, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ExplosionParticles: {fileID: 0}
-  m_ExplosionAudio: {fileID: 0}
-  m_MaxDamage: 100
-  m_ExplosionForce: 1000
-  m_MaxLifeTime: 2
-  m_ExplosionRadius: 0
 --- !u!1 &1291295503164410
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,8 +198,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291295503164410}
   m_LocalRotation: {x: -0.707106, y: 0, z: 0, w: 0.7071076}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 4259067470028500}
   - {fileID: 4610528029879982}

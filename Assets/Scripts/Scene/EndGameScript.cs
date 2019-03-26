@@ -9,6 +9,7 @@ public class EndGameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(StaticClass.CrossSceneInformation);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }

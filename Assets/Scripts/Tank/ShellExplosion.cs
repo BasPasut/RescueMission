@@ -22,12 +22,16 @@ namespace Complete
 
         private void Update ()
         {
-			// Collect all the colliders in a sphere from the shell's current position to a radius of the explosion radius.
-            Collider[] colliders0 = Physics.OverlapSphere(transform.position, 0.1f);
-            if (isImpactGround(colliders0)){
-                Debug.Log("impact ground");
+            
+            // Collect all the colliders in a sphere from the shell's current position to a radius of the explosion radius.
+            
 
-                Collider[] colliders = Physics.OverlapSphere (transform.position, 10f);
+            if (isImpactGround(transform.position)){
+                Debug.Log("impact ground");
+                //Debug.Log(m_ExplosionParticles);
+
+
+                Collider[] colliders = Physics.OverlapSphere (transform.position, 5f);
                 for (int i = 0; i < colliders.Length; i++)
                 {
                 // Debug.Log("impact :" +colliders[i].name);
@@ -66,6 +70,23 @@ namespace Complete
                 // // Deal this damage to the tank.
                 // targetHealth.TakeDamage (damage);
                 }
+
+                m_ExplosionParticles.transform.parent = null;
+
+                // Play the particle system.
+
+                //Debug.Log("sadas"+ m_ExplosionParticles);
+                m_ExplosionParticles.Play();
+
+            // Play the explosion sound effect.
+                m_ExplosionAudio.Play();
+
+            // Once the particles have finished, destroy the gameobject they are on.
+                ParticleSystem.MainModule mainModule = m_ExplosionParticles.main;
+                Destroy (m_ExplosionParticles.gameObject, mainModule.duration);
+
+            // Destroy the shell.
+                Destroy (gameObject);
             }
 
             
@@ -76,20 +97,7 @@ namespace Complete
             
 
             // Unparent the particles from the shell.
-            m_ExplosionParticles.transform.parent = null;
-
-            // Play the particle system.
-            m_ExplosionParticles.Play();
-
-            // Play the explosion sound effect.
-            m_ExplosionAudio.Play();
-
-            // Once the particles have finished, destroy the gameobject they are on.
-            ParticleSystem.MainModule mainModule = m_ExplosionParticles.main;
-            Destroy (m_ExplosionParticles.gameObject, mainModule.duration);
-
-            // Destroy the shell.
-            Destroy (gameObject);
+            
         }
 
 
@@ -113,8 +121,9 @@ namespace Complete
             return damage;
         }
 
-        private bool isImpactGround(Collider[] a)
+        private bool isImpactGround(Vector3 pos)
         {
+            Collider[] a = Physics.OverlapSphere(pos, 1f);
             for (int i = 0; i < a.Length; i++)
             {
                 if(a[i].name == "GroundPlane")

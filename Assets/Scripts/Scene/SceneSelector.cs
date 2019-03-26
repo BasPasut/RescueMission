@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
 public class SceneSelector : MonoBehaviour
 {
     public TextMeshProUGUI SelectionText;
@@ -17,6 +18,7 @@ public class SceneSelector : MonoBehaviour
     {
        if (isDead())
         {
+            StaticClass.CrossSceneInformation = "dead";
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }

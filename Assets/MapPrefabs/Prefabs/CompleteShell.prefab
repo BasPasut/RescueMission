@@ -159,18 +159,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 192454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af9894b7bced3a04c870ade3c621f94e, type: 3}
+  m_Script: {fileID: 11500000, guid: 9398ae7aa26d1b7498872d3dfcc74359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TankMask:
+  m_PlayerMask:
     serializedVersion: 2
-    m_Bits: 512
-  m_ExplosionParticles: {fileID: 198540207889710882}
-  m_ExplosionAudio: {fileID: 82110601301053950}
+    m_Bits: 0
+  m_ExplosionParticles: {fileID: 19807510, guid: 1911d89758d97cc4898d240e9e2545f4,
+    type: 3}
+  m_ExplosionAudio: {fileID: 0}
   m_MaxDamage: 100
   m_ExplosionForce: 1000
   m_MaxLifeTime: 2
-  m_ExplosionRadius: 5
+  m_ExplosionRadius: 0
 --- !u!1 &1291295503164410
 GameObject:
   m_ObjectHideFlags: 0

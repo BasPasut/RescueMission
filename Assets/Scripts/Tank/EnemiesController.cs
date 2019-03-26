@@ -10,7 +10,8 @@ public class EnemiesController : MonoBehaviour
     public Transform m_FireTransform;  
     public float lookRadius = 10f;
     public AudioManager am;
-    private float _timeleft = 0.3f;
+    
+    private float _timeleft = 1f;
 
     
     
@@ -50,7 +51,7 @@ public class EnemiesController : MonoBehaviour
                 if(_timeleft <= 0.0f)
                 {
                     Fire(distance);
-                    _timeleft = 0.6f;
+                    _timeleft = 1f;
                 }
             }
         }
@@ -79,14 +80,16 @@ public class EnemiesController : MonoBehaviour
             // Create an instance of the shell and store a reference to it's rigidbody.
             Rigidbody shellInstance = Instantiate (m_Shell, m_FireTransform.position, m_FireTransform.rotation) as Rigidbody;
 
+            Vector3 dir = (target.position - m_FireTransform.position).normalized * 50;
+
             // Set the shell's velocity to the launch force in the fire position's forward direction.
-            shellInstance.velocity = (distance-15) * m_FireTransform.forward; 
+            shellInstance.velocity = dir; 
 
             // Change the clip to the firing clip and play it.
             // m_ShootingAudio.clip = m_FireClip;
             // m_ShootingAudio.Play ();
 
-            // Reset the launch force.  This is a precaution in case of missing button events.
+            // Reset the launch force.  This /is a precaution in case of missing button events.
             // m_CurrentLaunchForce = m_MinLaunchForce;
         }
 
