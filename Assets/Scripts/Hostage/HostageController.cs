@@ -11,7 +11,7 @@ public class HostageController : MonoBehaviour
     public TextMeshProUGUI HostageLeft;
     int HostageNumber = 5;
 
-    public MainAudioManager Audio;
+    //public MainAudioManager Audio;
 
     Dictionary<string, int> hash = new Dictionary<string, int>();
     // Start is called before the first frame update
@@ -43,7 +43,7 @@ public class HostageController : MonoBehaviour
         }
         else
         {
-            Audio.PlayHostageSound();
+           // Audio.PlayHostageSound();
         }
 
     }

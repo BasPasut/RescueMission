@@ -10,12 +10,15 @@ namespace Complete
         public float m_MaxDamage = 100f;                    // The amount of damage done if the explosion is centred on a tank.
         public float m_ExplosionForce = 1000f;              // The amount of force added to a tank at the centre of the explosion.
         public float m_MaxLifeTime = 2f;                    // The time in seconds before the shell is removed.
-        public float m_ExplosionRadius;                // The maximum distance away from the explosion tanks can be and are still affected.
+        public float m_ExplosionRadius;
+        public bool iscaldmg = false;
+        // The maximum distance away from the explosion tanks can be and are still affected.
 
 
         private void Start ()
         {
             // If it isn't destroyed by then, destroy the shell after it's lifetime.
+            Debug.Log(m_ExplosionAudio);
             Destroy (gameObject, m_MaxLifeTime);
         }
 
@@ -47,10 +50,11 @@ namespace Complete
 
                 // Debug.Log(colliders[i].name+" have Rigidbody");
 
-                if(colliders[i].name == "Player")
+                if(colliders[i].name == "Player" && !iscaldmg)
                 {
                     PlayerHealth targetHealth = targetRigidbody.GetComponent<PlayerHealth> ();
                     targetHealth.ReduceHealth();
+                    iscaldmg = true;
                 }
 
                 m_ExplosionParticles.transform.parent = null;
@@ -61,8 +65,9 @@ namespace Complete
                 //Debug.Log("sadas"+ m_ExplosionParticles);
                 m_ExplosionParticles.Play();
 
-            // Play the explosion sound effect.
-                // m_ExplosionAudio.Play();
+                    // Play the explosion sound effect.
+
+                    m_ExplosionAudio.Play();
 
             // Once the particles have finished, destroy the gameobject they are on.
                 ParticleSystem.MainModule mainModule = m_ExplosionParticles.main;

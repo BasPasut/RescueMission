@@ -9876,6 +9876,7 @@ MonoBehaviour:
   Tank_Idle: {fileID: 8300000, guid: 3314caf816133fe429c115e0ad0f93ab, type: 3}
   BG: {fileID: 8300000, guid: 9dc0a5ca9295873429b900b4dbad65d8, type: 3}
   Hostage: {fileID: 8300000, guid: df447f33d107e8446845fe18be02ec12, type: 3}
+  Bomb: {fileID: 8300000, guid: 87241f4911628cc46a9f9d0d24a9df68, type: 3}
   TankMovement: {fileID: 1816231972}
 --- !u!82 &28274199
 AudioSource:
@@ -13007,7 +13008,6 @@ MonoBehaviour:
   m_Shell: {fileID: 5409530, guid: 174f6b08da2e1f6459bf7a0217b1a2db, type: 3}
   m_FireTransform: {fileID: 1026172174}
   lookRadius: 120
-  Audio: {fileID: 0}
 --- !u!114 &161943378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22423,7 +22423,7 @@ GameObject:
   - component: {fileID: 839645430}
   - component: {fileID: 839645429}
   m_Layer: 5
-  m_Name: RescueText
+  m_Name: TimeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25179,7 +25179,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3, y: 419}
+  m_AnchoredPosition: {x: -3, y: 447}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126729945
@@ -26207,7 +26207,6 @@ MonoBehaviour:
   HostageAnim: {fileID: 1220694572}
   RescueFin: {fileID: 1450804439}
   HostageLeft: {fileID: 416454688}
-  Audio: {fileID: 0}
 --- !u!136 &1220694571
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -29857,7 +29856,6 @@ MonoBehaviour:
   HostageAnim: {fileID: 1332750879}
   RescueFin: {fileID: 1450804439}
   HostageLeft: {fileID: 416454688}
-  Audio: {fileID: 0}
 --- !u!136 &1332750878
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -33878,7 +33876,6 @@ MonoBehaviour:
   HostageAnim: {fileID: 1774809811}
   RescueFin: {fileID: 1450804439}
   HostageLeft: {fileID: 416454688}
-  Audio: {fileID: 0}
 --- !u!136 &1774809810
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -34230,7 +34227,6 @@ MonoBehaviour:
   m_Shell: {fileID: 5409530, guid: 174f6b08da2e1f6459bf7a0217b1a2db, type: 3}
   m_FireTransform: {fileID: 541543717}
   lookRadius: 180
-  Audio: {fileID: 28274198}
 --- !u!195 &1816231973
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -34292,7 +34288,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d020fe217953c2e499625d9fbeb1fb28, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.196
   m_Pitch: 1
@@ -35224,6 +35220,7 @@ GameObject:
   - component: {fileID: 1936427610}
   - component: {fileID: 1936427609}
   - component: {fileID: 1936427612}
+  - component: {fileID: 1936427614}
   - component: {fileID: 1936427613}
   m_Layer: 0
   m_Name: EventSystem
@@ -35393,6 +35390,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1936427614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936427608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d563ef8fb44a042ad37a780c118353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timecounterbar: {fileID: 839645429}
 --- !u!1 &1938093938
 GameObject:
   m_ObjectHideFlags: 0
@@ -36061,7 +36071,6 @@ MonoBehaviour:
   HostageAnim: {fileID: 2064565884}
   RescueFin: {fileID: 1450804439}
   HostageLeft: {fileID: 416454688}
-  Audio: {fileID: 0}
 --- !u!136 &2064565883
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -36238,7 +36247,6 @@ MonoBehaviour:
   HostageAnim: {fileID: 388157372}
   RescueFin: {fileID: 1450804439}
   HostageLeft: {fileID: 416454688}
-  Audio: {fileID: 28274198}
 --- !u!1 &2098525125
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ public class EnemiesController : MonoBehaviour
     private float _timeleft = 1f;
     bool isMoving;
 
-    public MainAudioManager Audio;
+    //public MainAudioManager Audio;
     
 
     Transform target;
@@ -34,14 +34,14 @@ public class EnemiesController : MonoBehaviour
         float distance = Vector3.Distance(target.position, transform.position);
         // Debug.Log("distance " +  distance);
         setIsMoving(false);
-        Audio.PlayTankIdleSound();
+        //Audio.PlayTankIdleSound();
 
         if (distance <= lookRadius)
         {
             
             agent.SetDestination(target.position);
             setIsMoving(true);
-            Audio.PlayTankDrivingSound();
+            //Audio.PlayTankDrivingSound();
 
             if(distance <= agent.stoppingDistance)
             { 

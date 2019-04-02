@@ -10,6 +10,7 @@ public class MainAudioManager : MonoBehaviour
     public AudioClip Tank_Idle;
     public AudioClip BG;
     public AudioClip Hostage;
+    public AudioClip Bomb;
     public EnemiesController TankMovement;
 
     private AudioSource audioSource;
@@ -53,6 +54,11 @@ public class MainAudioManager : MonoBehaviour
     public void PlayHostageSound()
     {
         audioSource.PlayOneShot(Hostage);
+    }
+
+    public void PlayBombSound()
+    {
+        audioSource.PlayOneShot(Bomb);
     }
    
 }
