@@ -14,6 +14,8 @@ public class SceneSelector : MonoBehaviour
     public PlayerHealth health;
     public HostageController hostcon;
 
+    public MenuAudioController Audio;
+
     private void Update()
     {
        if (isDead())
@@ -25,6 +27,7 @@ public class SceneSelector : MonoBehaviour
 
     public void LeftSelection()
     {
+        Audio.PlayBtn();
         if (index > 0)
         {
             index--;
@@ -34,6 +37,7 @@ public class SceneSelector : MonoBehaviour
 
     public void RightSelection()
     {
+        Audio.PlayBtn();
         if (index < listText.Count - 1)
         {
             index++;
@@ -43,6 +47,7 @@ public class SceneSelector : MonoBehaviour
 
     public void PlayGame()
     {
+        Audio.PlayBtn();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

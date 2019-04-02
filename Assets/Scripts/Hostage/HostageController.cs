@@ -11,6 +11,8 @@ public class HostageController : MonoBehaviour
     public TextMeshProUGUI HostageLeft;
     int HostageNumber = 5;
 
+    public MainAudioManager Audio;
+
     Dictionary<string, int> hash = new Dictionary<string, int>();
     // Start is called before the first frame update
     void Start()
@@ -32,12 +34,16 @@ public class HostageController : MonoBehaviour
                 RescueFin.isFinished = false;
                 RescueFin.RescueTime = 10;
                 // Debug.Log("check point " + HostageLeft );
-                
+
                 HostageNumber = HostageNumber - 1;
                 HostageLeft.text = "X" + HostageNumber;
             }
             // RescueFin.hostage = null;
             // RescueFin.isFinished = false;
+        }
+        else
+        {
+            Audio.PlayHostageSound();
         }
 
     }

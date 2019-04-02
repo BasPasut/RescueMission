@@ -9,11 +9,11 @@ public class EnemiesController : MonoBehaviour
     public Rigidbody m_Shell;
     public Transform m_FireTransform;  
     public float lookRadius = 10f;
-    public AudioManager am;
     
     private float _timeleft = 1f;
+    bool isMoving;
 
-    
+    public MainAudioManager Audio;
     
 
     Transform target;
@@ -33,15 +33,15 @@ public class EnemiesController : MonoBehaviour
         // print(m_FireTransform.forward);
         float distance = Vector3.Distance(target.position, transform.position);
         // Debug.Log("distance " +  distance);
+        setIsMoving(false);
+        Audio.PlayTankIdleSound();
 
         if (distance <= lookRadius)
         {
             
             agent.SetDestination(target.position);
-            // am.PlayBackgroundSound();
-            
-
-
+            setIsMoving(true);
+            Audio.PlayTankDrivingSound();
 
             if(distance <= agent.stoppingDistance)
             { 
@@ -56,6 +56,16 @@ public class EnemiesController : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void setIsMoving(bool isMoving)
+    {
+        this.isMoving = isMoving;
+    }
+
+    public bool getIsMoving()
+    {
+        return isMoving;
     }
 
     void FaceTarget()

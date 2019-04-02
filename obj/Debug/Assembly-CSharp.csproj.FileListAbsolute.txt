@@ -280,3 +280,7 @@ C:\Users\Pasut Kittiprapas\Documents\ThirdPerson\obj\Debug\Assembly-CSharp.cspro
 C:\Users\Pasut Kittiprapas\Documents\ThirdPerson\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\Pasut Kittiprapas\Documents\ThirdPerson\obj\Debug\Assembly-CSharp.dll
 C:\Users\Pasut Kittiprapas\Documents\ThirdPerson\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Pasut Kittiprapas\Documents\RescueMission\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Pasut Kittiprapas\Documents\RescueMission\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Pasut Kittiprapas\Documents\RescueMission\obj\Debug\Assembly-CSharp.dll
+C:\Users\Pasut Kittiprapas\Documents\RescueMission\obj\Debug\Assembly-CSharp.pdb
