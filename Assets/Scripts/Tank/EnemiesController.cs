@@ -11,9 +11,13 @@ public class EnemiesController : MonoBehaviour
     public float lookRadius = 10f;
     
     private float _timeleft = 1f;
+    private float _timeleftchangepos = 5f;
+
+    private float timeLeftByLevel;
+
     bool isMoving;
 
-    //public MainAudioManager Audio;
+    public MainAudioManager Audio;
     
 
     Transform target;
@@ -25,6 +29,19 @@ public class EnemiesController : MonoBehaviour
     {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
+        if (StaticClass.GetLevel.ToString().Contains("Normal"))
+        {
+           timeLeftByLevel = 1f;
+        }
+        else if (StaticClass.GetLevel.ToString().Contains("Difficult"))
+        {
+           timeLeftByLevel = 0.6f;
+        }
+        else if (StaticClass.GetLevel.ToString().Contains("Nightmare"))
+        {
+           timeLeftByLevel = 0.3f;
+        }
+        Debug.Log(timeLeftByLevel);
     }
 
     // Update is called once per frame
@@ -52,10 +69,23 @@ public class EnemiesController : MonoBehaviour
                 if(_timeleft <= 0.0f)
                 {
                     Fire(target.position,distance);
-                    _timeleft = 1f;
+                    _timeleft = timeLeftByLevel;
                 }
             }
         }
+        //else
+        //{
+        //    System.Random rnd = new System.Random();
+        //    _timeleftchangepos -= Time.deltaTime;
+        //    if(_timeleftchangepos <= 0.0f)
+        //    {
+        //        Vector3 v = new Vector3(minusorplus() * rnd.Next(100, 200), 0, minusorplus() * rnd.Next(100, 200));
+        //        Debug.Log(v);
+        //        agent.SetDestination(v);
+        //        _timeleftchangepos = 5f;
+        //    }
+            
+        //}
     }
 
     public void setIsMoving(bool isMoving)
@@ -79,6 +109,22 @@ public class EnemiesController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
+    }
+
+    int minusorplus()
+    {
+        System.Random r = new System.Random();
+        var v = r.Next(0, 2);
+        if (v == 0)
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
+        
+            
     }
 
 

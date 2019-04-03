@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -16,11 +17,17 @@ public class SceneSelector : MonoBehaviour
 
     public MenuAudioController Audio;
 
+    private void Start()
+    {
+        StaticClass.GetLevel = "Normal";
+
+    }
+
     private void Update()
     {
        if (isDead())
         {
-            StaticClass.CrossSceneInformation = "dead";
+            StaticClass.GetDeadStatus = "dead";
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
@@ -32,6 +39,14 @@ public class SceneSelector : MonoBehaviour
         {
             index--;
             SelectionText.text = listText[index].text;
+            try
+            {
+                StaticClass.GetLevel = SelectionText.text.ToString();
+            }
+            catch (Exception e)
+            {
+                StaticClass.GetLevel = "Normal";
+            }
         }
     }
 
@@ -42,6 +57,14 @@ public class SceneSelector : MonoBehaviour
         {
             index++;
             SelectionText.text = listText[index].text;
+            try
+            {
+                StaticClass.GetLevel = SelectionText.text.ToString();
+            }
+            catch(Exception e)
+            {
+                StaticClass.GetLevel = "Normal";
+            }
         }
     }
 
@@ -49,6 +72,7 @@ public class SceneSelector : MonoBehaviour
     {
         Audio.PlayBtn();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
     public bool isDead()

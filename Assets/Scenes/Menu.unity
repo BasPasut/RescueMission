@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 386814027}
   - component: {fileID: 386814026}
   m_Layer: 5
-  m_Name: Default
+  m_Name: Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,7 +1974,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

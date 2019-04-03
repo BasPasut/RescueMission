@@ -19,6 +19,6 @@ public class TimeCounter : MonoBehaviour
         timecounterbar.text = minutes + "." + seconds;
 
 
-        Debug.Log(minutes+":"+ seconds);
+        //Debug.Log(minutes+":"+ seconds);
     }
 }

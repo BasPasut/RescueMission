@@ -18,7 +18,7 @@ namespace Complete
         private void Start ()
         {
             // If it isn't destroyed by then, destroy the shell after it's lifetime.
-            Debug.Log(m_ExplosionAudio);
+            //Debug.Log(m_ExplosionAudio);
             Destroy (gameObject, m_MaxLifeTime);
         }
 

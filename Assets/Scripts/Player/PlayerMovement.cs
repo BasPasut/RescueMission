@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public float RescueTime = 10;
 
     public float Speed;
+    private float SpeedbyLevel;
     bool isNearHostage;
     bool isRescusing;
     bool isCrawling = false;
@@ -29,6 +31,24 @@ public class PlayerMovement : MonoBehaviour
     {
         //Get the animator
         animator = this.gameObject.GetComponent<Animator>();
+        Debug.Log(StaticClass.GetLevel);
+        
+        if (StaticClass.GetLevel.ToString().Contains("Normal"))
+        {
+            SpeedbyLevel = 28;
+        }
+        else if (StaticClass.GetLevel.ToString().Contains("Difficult"))
+        {
+            SpeedbyLevel = 25;
+        }
+        else if (StaticClass.GetLevel.ToString().Contains("Nightmare"))
+        {
+            SpeedbyLevel = 23;
+        }
+        else
+        {
+            SpeedbyLevel = 28;
+        }
     }
 
     // Update is called once per frame
@@ -51,10 +71,9 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
-            animator.SetFloat("Speed", 1f);
             SetFloatAnim(hor, ver);
-            Speed = 25;
-
+            animator.SetFloat("Speed", 1f);
+            Speed = SpeedbyLevel;
         }
 
         if (isNearHostage == true)

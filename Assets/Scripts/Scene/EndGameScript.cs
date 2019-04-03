@@ -15,8 +15,8 @@ public class EndGameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         Debug.Log(StaticClass.CrossSceneInformation);
-        if (StaticClass.CrossSceneInformation.Equals("dead"))
+         Debug.Log(StaticClass.GetDeadStatus);
+        if (StaticClass.GetDeadStatus.ToString().Equals("dead"))
         {
             WinText.SetActive(false);
             LoseText.SetActive(true);
