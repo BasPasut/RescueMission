@@ -3,6 +3,7 @@ PlayerPath?
 C:/Users/Pasut Kittiprapas/Desktop/RescueMission/RescueMission.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
+Assets/Scenes/MapSelection.unity
 Assets/Scenes/Main.unity
 Assets/Scenes/GameOver.unity
 SceneListEnd?
@@ -165,7 +166,8 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
-34161ffe5d78af82c278104c4f1ca851 Assembly-CSharp.dll:.SceneSelector
+f6da2b8fffc0c8c82b5d813aeb95169a Assembly-CSharp.dll:.SceneSelector
+d3df1f7baf0db10cbe9ab13629bd6eb9 Assembly-CSharp.dll:.MapSelection
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 4e693fbe28774cb584ad25ef4476aca5 Assembly-CSharp.dll:.EndAudioController

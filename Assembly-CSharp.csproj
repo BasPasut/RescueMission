@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Scene\EndAudioController.cs" />
     <Compile Include="Assets\Scripts\Scene\EndGameScript.cs" />
     <Compile Include="Assets\Scripts\Scene\MainAudioManager.cs" />
+    <Compile Include="Assets\Scripts\Scene\MapSelection.cs" />
     <Compile Include="Assets\Scripts\Scene\MenuAudioController.cs" />
     <Compile Include="Assets\Scripts\Scene\SceneSelector.cs" />
     <Compile Include="Assets\Scripts\Scene\SpawnScript.cs" />

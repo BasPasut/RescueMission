@@ -11,6 +11,7 @@ public class SceneSelector : MonoBehaviour
 {
     public TextMeshProUGUI SelectionText;
     public List<TextMeshProUGUI> listText = new List<TextMeshProUGUI>();
+    public GameObject[] Maps = new GameObject[2];
     private int index = 0;
     public PlayerHealth health;
     public HostageController hostcon;
@@ -19,6 +20,24 @@ public class SceneSelector : MonoBehaviour
 
     private void Start()
     {
+
+        //for(int i = 0; i < 4; i++)
+        //{
+          //  Maps[i].SetActive(false);
+        //}
+        
+        for(int i = 0; i < 2; i++)
+        {
+            if (Maps[i].name.Contains(StaticClass.GetMap))
+            {
+                Maps[i].SetActive(true);
+                return;
+            }
+            else
+            {
+                Maps[i].SetActive(false);
+            }
+        }
         StaticClass.GetLevel = "Normal";
 
     }
