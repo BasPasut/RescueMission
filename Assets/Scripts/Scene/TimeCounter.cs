@@ -8,7 +8,7 @@ using TMPro;
 public class TimeCounter : MonoBehaviour
 {
     // Start is called before the first frame update
-    float timeleft = 300f;
+    public static float timeleft = 300f;
     public TextMeshProUGUI timecounterbar;
     // Update is called once per frame
     void Update()
@@ -21,4 +21,5 @@ public class TimeCounter : MonoBehaviour
 
         //Debug.Log(minutes+":"+ seconds);
     }
+
 }

@@ -23,10 +23,10 @@ public class SceneSelector : MonoBehaviour
 
         //for(int i = 0; i < 4; i++)
         //{
-          //  Maps[i].SetActive(false);
+        //  Maps[i].SetActive(false);
         //}
-        
-        for(int i = 0; i < 2; i++)
+       // StaticClass.GetLevel = "Normal";
+        for (int i = 0; i < 2; i++)
         {
             if (Maps[i].name.Contains(StaticClass.GetMap))
             {
@@ -38,7 +38,8 @@ public class SceneSelector : MonoBehaviour
                 Maps[i].SetActive(false);
             }
         }
-        StaticClass.GetLevel = "Normal";
+        
+
 
     }
 
@@ -58,14 +59,14 @@ public class SceneSelector : MonoBehaviour
         {
             index--;
             SelectionText.text = listText[index].text;
-            try
-            {
-                StaticClass.GetLevel = SelectionText.text.ToString();
-            }
-            catch (Exception e)
-            {
-                StaticClass.GetLevel = "Normal";
-            }
+            //try
+            //{
+            //    StaticClass.GetLevel = SelectionText.text.ToString();
+            //}
+            //catch(Exception e)
+            //{
+            //    StaticClass.GetLevel = "Normal";
+            //}
         }
     }
 
@@ -76,27 +77,29 @@ public class SceneSelector : MonoBehaviour
         {
             index++;
             SelectionText.text = listText[index].text;
-            try
-            {
-                StaticClass.GetLevel = SelectionText.text.ToString();
-            }
-            catch(Exception e)
-            {
-                StaticClass.GetLevel = "Normal";
-            }
+            //try
+            //{
+            //    StaticClass.GetLevel = SelectionText.text.ToString();
+            //}
+            //catch(Exception e)
+            //{
+            //    StaticClass.GetLevel = "Normal";
+            //}
         }
     }
 
     public void PlayGame()
     {
+        StaticClass.GetLevel = SelectionText.text.ToString();
         Audio.PlayBtn();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         
+
     }
 
     public bool isDead()
     {
-        return health.isdead;
+        return health.isdead || TimeCounter.timeleft <= 0f;
     }
     public bool isRecurAll()
     {

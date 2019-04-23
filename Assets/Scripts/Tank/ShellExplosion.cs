@@ -12,6 +12,9 @@ namespace Complete
         public float m_MaxLifeTime = 2f;                    // The time in seconds before the shell is removed.
         public float m_ExplosionRadius;
         public bool iscaldmg = false;
+        public bool isimpact = false;
+        private Vector3 vec0 = new Vector3(0,0,0);
+        
         // The maximum distance away from the explosion tanks can be and are still affected.
 
 
@@ -25,17 +28,19 @@ namespace Complete
 
         private void Update ()
         {
-            
-            // Collect all the colliders in a sphere from the shell's current position to a radius of the explosion radius.
-            
 
-            if (isImpactGround(transform.position)){
+            // Collect all the colliders in a sphere from the shell's current position to a radius of the explosion radius.
+            if (!isimpact) {
+            
+            if (isImpactObject(transform.position)){
                 // Debug.Log("impact ground"+transform.position);
                 //Debug.Log(m_ExplosionParticles);
-
-
+                isimpact = true; 
                 Collider[] colliders = Physics.OverlapSphere (transform.position, 5f);
-                
+                Rigidbody rg = gameObject.GetComponent<Rigidbody>();
+                rg.velocity = vec0;
+                gameObject.SetActive(false);
+
                 
                 
                 for (int i = 0; i < colliders.Length; i++)
@@ -67,7 +72,7 @@ namespace Complete
 
                     // Play the explosion sound effect.
 
-                    m_ExplosionAudio.Play();
+                m_ExplosionAudio.Play();
 
             // Once the particles have finished, destroy the gameobject they are on.
                 ParticleSystem.MainModule mainModule = m_ExplosionParticles.main;
@@ -98,6 +103,7 @@ namespace Complete
                 }
 
                 
+            }
             }
 
             
@@ -132,12 +138,14 @@ namespace Complete
             return damage;
         }
 
-        private bool isImpactGround(Vector3 pos)
+        private bool isImpactObject(Vector3 pos)
         {
             Collider[] a = Physics.OverlapSphere(pos, 1f);
+            
             for (int i = 0; i < a.Length; i++)
             {
-                if(a[i].name == "GroundPlane")
+                print(a[i]);
+                if(a[i].name.Contains("Ground") || a[i].name.Contains("Building") || a[i].name.Contains("Oil") || a[i].name.Contains("Ruin"))
                     return true;
             }
             return false;

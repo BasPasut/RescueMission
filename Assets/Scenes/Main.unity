@@ -8488,6 +8488,7 @@ GameObject:
   - component: {fileID: 20954055}
   - component: {fileID: 25028471}
   - component: {fileID: 30299103}
+  - component: {fileID: 28052176}
   m_Layer: 0
   m_Name: Building02
   m_TagString: Untagged
@@ -8495,6 +8496,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28052176
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28052175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: 7fa610bf2b9bccd48a9b3a6d79f90a37, type: 3}
 --- !u!1 &28052195
 GameObject:
   m_ObjectHideFlags: 0
@@ -8506,13 +8521,28 @@ GameObject:
   - component: {fileID: 27993997}
   - component: {fileID: 27180361}
   - component: {fileID: 26116929}
+  - component: {fileID: 28052196}
   m_Layer: 0
-  m_Name: Crater01
+  m_Name: Ruin_Crater01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28052196
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28052195}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: aef18f364fed1a64ba495d15dcee610d, type: 3}
 --- !u!1 &28052309
 GameObject:
   m_ObjectHideFlags: 0
@@ -8632,13 +8662,28 @@ GameObject:
   - component: {fileID: 28033349}
   - component: {fileID: 27202009}
   - component: {fileID: 26144671}
+  - component: {fileID: 28056572}
   m_Layer: 0
-  m_Name: Crater01 (2)
+  m_Name: Ruin_Crater01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28056572
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28056571}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: aef18f364fed1a64ba495d15dcee610d, type: 3}
 --- !u!1 &28056981
 GameObject:
   m_ObjectHideFlags: 0
@@ -8693,6 +8738,7 @@ GameObject:
   - component: {fileID: 30280627}
   - component: {fileID: 30327763}
   - component: {fileID: 30296329}
+  - component: {fileID: 28059760}
   m_Layer: 0
   m_Name: Building01 (3)
   m_TagString: Untagged
@@ -8700,6 +8746,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28059760
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28059759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
 --- !u!1 &28059863
 GameObject:
   m_ObjectHideFlags: 0
@@ -8729,6 +8789,7 @@ GameObject:
   - component: {fileID: 28022409}
   - component: {fileID: 27214743}
   - component: {fileID: 26094073}
+  - component: {fileID: 28059920}
   m_Layer: 0
   m_Name: Dunes01 (6)
   m_TagString: Untagged
@@ -8736,6 +8797,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28059920
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28059919}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28060821
 GameObject:
   m_ObjectHideFlags: 0
@@ -8875,6 +8950,7 @@ GameObject:
   - component: {fileID: 30002101}
   - component: {fileID: 30306055}
   - component: {fileID: 29997735}
+  - component: {fileID: 28063990}
   m_Layer: 0
   m_Name: Building01 (1)
   m_TagString: Untagged
@@ -8882,6 +8958,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28063990
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28063989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
 --- !u!1 &28063991
 GameObject:
   m_ObjectHideFlags: 0
@@ -8913,7 +9003,7 @@ GameObject:
   - component: {fileID: 29999101}
   - component: {fileID: 29993401}
   m_Layer: 0
-  m_Name: PumpJack (2)
+  m_Name: Oil_PumpJack (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9059,6 +9149,7 @@ GameObject:
   - component: {fileID: 27949149}
   - component: {fileID: 27216347}
   - component: {fileID: 26129757}
+  - component: {fileID: 28072258}
   m_Layer: 0
   m_Name: Dunes01 (3)
   m_TagString: Untagged
@@ -9066,6 +9157,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28072258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28072257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28074667
 GameObject:
   m_ObjectHideFlags: 0
@@ -9237,6 +9342,7 @@ GameObject:
   - component: {fileID: 27955391}
   - component: {fileID: 27214523}
   - component: {fileID: 26109803}
+  - component: {fileID: 28242808}
   m_Layer: 0
   m_Name: Dunes01 (10)
   m_TagString: Untagged
@@ -9244,6 +9350,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28242808
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28242807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28243785
 GameObject:
   m_ObjectHideFlags: 0
@@ -9274,6 +9394,7 @@ GameObject:
   - component: {fileID: 27955613}
   - component: {fileID: 27230147}
   - component: {fileID: 26091711}
+  - component: {fileID: 28246806}
   m_Layer: 0
   m_Name: Dunes01 (8)
   m_TagString: Untagged
@@ -9281,6 +9402,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28246806
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28246805}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28246871
 GameObject:
   m_ObjectHideFlags: 0
@@ -9308,6 +9443,7 @@ GameObject:
   - component: {fileID: 28004449}
   - component: {fileID: 27180057}
   - component: {fileID: 25797713}
+  - component: {fileID: 28247470}
   m_Layer: 0
   m_Name: Dunes02
   m_TagString: Untagged
@@ -9315,6 +9451,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28247470
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28247469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28248369
 GameObject:
   m_ObjectHideFlags: 0
@@ -9382,6 +9532,7 @@ GameObject:
   - component: {fileID: 27980959}
   - component: {fileID: 27240501}
   - component: {fileID: 26133029}
+  - component: {fileID: 28254608}
   m_Layer: 0
   m_Name: Dunes01
   m_TagString: Untagged
@@ -9389,6 +9540,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28254608
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28254607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28255429
 GameObject:
   m_ObjectHideFlags: 0
@@ -9473,13 +9638,28 @@ GameObject:
   - component: {fileID: 28020191}
   - component: {fileID: 27169401}
   - component: {fileID: 25820557}
+  - component: {fileID: 28257780}
   m_Layer: 0
-  m_Name: Crater01 (1)
+  m_Name: Ruin_Crater01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28257780
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28257779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: aef18f364fed1a64ba495d15dcee610d, type: 3}
 --- !u!1 &28258249
 GameObject:
   m_ObjectHideFlags: 0
@@ -9494,6 +9674,7 @@ GameObject:
   - component: {fileID: 29991849}
   - component: {fileID: 29975253}
   - component: {fileID: 30282117}
+  - component: {fileID: 28258250}
   m_Layer: 0
   m_Name: Building01 (2)
   m_TagString: Untagged
@@ -9501,6 +9682,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28258250
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28258249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
 --- !u!1 &28258929
 GameObject:
   m_ObjectHideFlags: 0
@@ -9530,6 +9725,7 @@ GameObject:
   - component: {fileID: 27953263}
   - component: {fileID: 27194001}
   - component: {fileID: 25812353}
+  - component: {fileID: 28259124}
   m_Layer: 0
   m_Name: Dunes02 (2)
   m_TagString: Untagged
@@ -9537,6 +9733,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28259124
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28259123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28260939
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,13 +9799,28 @@ GameObject:
   - component: {fileID: 26093895}
   - component: {fileID: 23205809}
   - component: {fileID: 30297009}
+  - component: {fileID: 28261276}
   m_Layer: 0
-  m_Name: BustedTank
+  m_Name: Ruin_BustedTank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28261276
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28261275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 8c6d26fe262194242becdec17209d306, type: 3}
 --- !u!1 &28261307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9666,7 +9891,7 @@ GameObject:
   - component: {fileID: 20962841}
   - component: {fileID: 25013799}
   m_Layer: 0
-  m_Name: OilStorage
+  m_Name: Oil_OilStorage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9705,7 +9930,7 @@ GameObject:
   - component: {fileID: 30289403}
   - component: {fileID: 30282921}
   m_Layer: 0
-  m_Name: PumpJack
+  m_Name: Oil_PumpJack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9761,7 +9986,7 @@ GameObject:
   - component: {fileID: 29992461}
   - component: {fileID: 30285059}
   m_Layer: 0
-  m_Name: Refinery
+  m_Name: Oil_Refinery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9780,6 +10005,7 @@ GameObject:
   - component: {fileID: 25812709}
   - component: {fileID: 30324231}
   - component: {fileID: 30282111}
+  - component: {fileID: 28271458}
   m_Layer: 0
   m_Name: Helipad
   m_TagString: Untagged
@@ -9787,6 +10013,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28271458
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28271457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 614b6b69c0bbcd945bb2f83eb02a3436, type: 3}
 --- !u!1 &28272941
 GameObject:
   m_ObjectHideFlags: 0
@@ -9859,7 +10099,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &28274198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10005,6 +10245,7 @@ GameObject:
   - component: {fileID: 27999979}
   - component: {fileID: 27172007}
   - component: {fileID: 26131811}
+  - component: {fileID: 28275600}
   m_Layer: 0
   m_Name: Dunes01 (9)
   m_TagString: Untagged
@@ -10012,6 +10253,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28275600
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28275599}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28275777
 GameObject:
   m_ObjectHideFlags: 0
@@ -10026,7 +10281,7 @@ GameObject:
   - component: {fileID: 20753721}
   - component: {fileID: 25028925}
   m_Layer: 0
-  m_Name: OilStorage (1)
+  m_Name: Oil_OilStorage (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10066,13 +10321,28 @@ GameObject:
   - component: {fileID: 30314299}
   - component: {fileID: 30302573}
   - component: {fileID: 30008719}
+  - component: {fileID: 28278218}
   m_Layer: 0
-  m_Name: Ruins01
+  m_Name: Ruin_Ruins01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28278218
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28278217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 8c99ccdf18f6a404f84ffd08488298d8, type: 3}
 --- !u!1 &28279163
 GameObject:
   m_ObjectHideFlags: 0
@@ -10084,6 +10354,7 @@ GameObject:
   - component: {fileID: 27950619}
   - component: {fileID: 27167223}
   - component: {fileID: 25788881}
+  - component: {fileID: 28279164}
   m_Layer: 0
   m_Name: Dunes01 (2)
   m_TagString: Untagged
@@ -10091,6 +10362,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28279164
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28279163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28279629
 GameObject:
   m_ObjectHideFlags: 0
@@ -10140,6 +10425,7 @@ GameObject:
   - component: {fileID: 28009959}
   - component: {fileID: 27187455}
   - component: {fileID: 25807109}
+  - component: {fileID: 28280190}
   m_Layer: 0
   m_Name: Dunes02 (4)
   m_TagString: Untagged
@@ -10147,6 +10433,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28280190
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28280189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28280465
 GameObject:
   m_ObjectHideFlags: 0
@@ -10216,7 +10516,7 @@ GameObject:
   - component: {fileID: 30309713}
   - component: {fileID: 29972081}
   m_Layer: 0
-  m_Name: PumpJack (1)
+  m_Name: Oil_PumpJack (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10290,13 +10590,28 @@ GameObject:
   - component: {fileID: 27945411}
   - component: {fileID: 27220355}
   - component: {fileID: 26087599}
+  - component: {fileID: 28286228}
   m_Layer: 0
-  m_Name: Crater01 (3)
+  m_Name: Ruin_Crater01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28286228
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28286227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: aef18f364fed1a64ba495d15dcee610d, type: 3}
 --- !u!1 &28286583
 GameObject:
   m_ObjectHideFlags: 0
@@ -10342,6 +10657,7 @@ GameObject:
   - component: {fileID: 28004201}
   - component: {fileID: 27163421}
   - component: {fileID: 26130899}
+  - component: {fileID: 28286614}
   m_Layer: 0
   m_Name: Dunes02 (1)
   m_TagString: Untagged
@@ -10349,6 +10665,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28286614
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28286613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28286801
 GameObject:
   m_ObjectHideFlags: 0
@@ -10415,6 +10745,7 @@ GameObject:
   - component: {fileID: 28016441}
   - component: {fileID: 27151497}
   - component: {fileID: 26137707}
+  - component: {fileID: 28287614}
   m_Layer: 0
   m_Name: Dunes02 (5)
   m_TagString: Untagged
@@ -10422,6 +10753,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28287614
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28287613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28288117
 GameObject:
   m_ObjectHideFlags: 0
@@ -10433,6 +10778,7 @@ GameObject:
   - component: {fileID: 27949967}
   - component: {fileID: 27189947}
   - component: {fileID: 25806055}
+  - component: {fileID: 28288118}
   m_Layer: 0
   m_Name: Dunes01 (1)
   m_TagString: Untagged
@@ -10440,6 +10786,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28288118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28288117}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28289651
 GameObject:
   m_ObjectHideFlags: 0
@@ -10451,6 +10811,7 @@ GameObject:
   - component: {fileID: 27991505}
   - component: {fileID: 27166771}
   - component: {fileID: 26116757}
+  - component: {fileID: 28289652}
   m_Layer: 0
   m_Name: Dunes01 (11)
   m_TagString: Untagged
@@ -10458,6 +10819,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28289652
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28289651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28289995
 GameObject:
   m_ObjectHideFlags: 0
@@ -10488,6 +10863,7 @@ GameObject:
   - component: {fileID: 28027225}
   - component: {fileID: 27184159}
   - component: {fileID: 26123839}
+  - component: {fileID: 28290822}
   m_Layer: 0
   m_Name: Dunes02 (6)
   m_TagString: Untagged
@@ -10495,6 +10871,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28290822
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28290821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28291935
 GameObject:
   m_ObjectHideFlags: 0
@@ -10506,6 +10896,7 @@ GameObject:
   - component: {fileID: 28013889}
   - component: {fileID: 27237697}
   - component: {fileID: 25787053}
+  - component: {fileID: 28291936}
   m_Layer: 0
   m_Name: Dunes01 (12)
   m_TagString: Untagged
@@ -10513,6 +10904,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28291936
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28291935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28293057
 GameObject:
   m_ObjectHideFlags: 0
@@ -10546,6 +10951,7 @@ GameObject:
   - component: {fileID: 20725701}
   - component: {fileID: 23219373}
   - component: {fileID: 30309537}
+  - component: {fileID: 28296172}
   m_Layer: 0
   m_Name: Building02 (2)
   m_TagString: Untagged
@@ -10553,6 +10959,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28296172
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28296171}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: 7fa610bf2b9bccd48a9b3a6d79f90a37, type: 3}
 --- !u!1 &28296527
 GameObject:
   m_ObjectHideFlags: 0
@@ -10600,6 +11020,7 @@ GameObject:
   - component: {fileID: 27949205}
   - component: {fileID: 27161239}
   - component: {fileID: 26132871}
+  - component: {fileID: 28297280}
   m_Layer: 0
   m_Name: Dunes02 (3)
   m_TagString: Untagged
@@ -10607,6 +11028,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28297280
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28297279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28298665
 GameObject:
   m_ObjectHideFlags: 0
@@ -10637,6 +11072,7 @@ GameObject:
   - component: {fileID: 27981631}
   - component: {fileID: 27186699}
   - component: {fileID: 26116993}
+  - component: {fileID: 28298772}
   m_Layer: 0
   m_Name: Dunes01 (7)
   m_TagString: Untagged
@@ -10644,6 +11080,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28298772
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28298771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28298981
 GameObject:
   m_ObjectHideFlags: 0
@@ -10658,6 +11108,7 @@ GameObject:
   - component: {fileID: 29990439}
   - component: {fileID: 30300835}
   - component: {fileID: 30284155}
+  - component: {fileID: 28298982}
   m_Layer: 0
   m_Name: Building01
   m_TagString: Untagged
@@ -10665,6 +11116,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28298982
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28298981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
 --- !u!1 &28302495
 GameObject:
   m_ObjectHideFlags: 0
@@ -10695,6 +11160,7 @@ GameObject:
   - component: {fileID: 27987229}
   - component: {fileID: 27189911}
   - component: {fileID: 26119491}
+  - component: {fileID: 28303650}
   m_Layer: 0
   m_Name: Dunes02 (7)
   m_TagString: Untagged
@@ -10702,6 +11168,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28303650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28303649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
 --- !u!1 &28305011
 GameObject:
   m_ObjectHideFlags: 0
@@ -10735,6 +11215,7 @@ GameObject:
   - component: {fileID: 20777185}
   - component: {fileID: 25011033}
   - component: {fileID: 30316137}
+  - component: {fileID: 28306060}
   m_Layer: 0
   m_Name: Building02 (1)
   m_TagString: Untagged
@@ -10742,6 +11223,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28306060
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28306059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: 7fa610bf2b9bccd48a9b3a6d79f90a37, type: 3}
 --- !u!1 &28307513
 GameObject:
   m_ObjectHideFlags: 0
@@ -10753,6 +11248,7 @@ GameObject:
   - component: {fileID: 27964179}
   - component: {fileID: 27210649}
   - component: {fileID: 26119257}
+  - component: {fileID: 28307514}
   m_Layer: 0
   m_Name: Dunes01 (5)
   m_TagString: Untagged
@@ -10760,6 +11256,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28307514
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28307513}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
 --- !u!1 &28308153
 GameObject:
   m_ObjectHideFlags: 0
@@ -10776,13 +11286,28 @@ GameObject:
   - component: {fileID: 30317423}
   - component: {fileID: 29972931}
   - component: {fileID: 30281477}
+  - component: {fileID: 28308154}
   m_Layer: 0
-  m_Name: Ruins01 (1)
+  m_Name: Ruin_Ruins01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &28308154
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28308153}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 8c99ccdf18f6a404f84ffd08488298d8, type: 3}
 --- !u!1 &28308915
 GameObject:
   m_ObjectHideFlags: 0
@@ -12882,7 +13407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156103787}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.2, y: 0, z: 22.8}
+  m_LocalPosition: {x: -22.6, y: 0, z: 19.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1282065690}
@@ -13005,10 +13530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7c8bce6baa4f247bb755b5a014087f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shell: {fileID: 5409530, guid: 174f6b08da2e1f6459bf7a0217b1a2db, type: 3}
-  m_FireTransform: {fileID: 1026172174}
-  lookRadius: 120
-  Audio: {fileID: 0}
 --- !u!114 &161943378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14484,71 +15005,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288753320}
   m_CullTransparentMesh: 0
---- !u!1001 &289268769
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1690416284}
-    m_Modifications:
-    - target: {fileID: 148586, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_Name
-      value: rightDustTrail
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071062
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.000000022351742
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.00000007038021
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.70710737
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19895962, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19895962, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
 --- !u!1001 &291993550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19365,7 +19821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501508973}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.4, y: 0, z: -5.2}
+  m_LocalPosition: {x: 20.1, y: 0, z: 13.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1282065690}
@@ -19744,36 +20200,6 @@ Transform:
   m_Children:
   - {fileID: 1127766504}
   m_Father: {fileID: 874371330}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &541543716
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 541543717}
-  m_Layer: 0
-  m_Name: firetransform
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &541543717
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541543716}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.06999991, z: 2.28}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1816231970}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &541891376
@@ -20482,7 +20908,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595554291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.6, y: 0, z: -5.1}
+  m_LocalPosition: {x: -32.3, y: 0, z: -8.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1282065690}
@@ -27698,13 +28124,13 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251565994}
   serializedVersion: 2
-  m_Mass: 80
+  m_Mass: 90
   m_Drag: 100
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1251565997
 MonoBehaviour:
@@ -29618,9 +30044,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282065689}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 914187ae00860ac49bc86abc0796fe65, type: 3}
+  m_Script: {fileID: 11500000, guid: a843f1f7da2c8b44391daa0208d5d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoints:
@@ -29629,8 +30055,7 @@ MonoBehaviour:
   - {fileID: 156103788}
   - {fileID: 1459482071}
   obj:
-  - {fileID: 1816231971}
-  - {fileID: 1816231971}
+  - {fileID: 1728829580, guid: 696161ac3db291840a4b278e17e134b0, type: 3}
 --- !u!1 &1294537826
 GameObject:
   m_ObjectHideFlags: 0
@@ -30723,71 +31148,6 @@ MonoBehaviour:
   Speed: 0
   RescueCanvas: {fileID: 1334988711}
   hostage: {fileID: 0}
---- !u!1001 &1451274715
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1690416284}
-    m_Modifications:
-    - target: {fileID: 148586, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_Name
-      value: leftDustTrail
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071062
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.000000022351742
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.00000007038021
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.70710737
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19895962, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19895962, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
 --- !u!1 &1456252842
 GameObject:
   m_ObjectHideFlags: 0
@@ -30874,7 +31234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459482070}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: -3.9}
+  m_LocalPosition: {x: 4.3, y: 0, z: -27.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1282065690}
@@ -33237,12 +33597,6 @@ Transform:
   m_Father: {fileID: 1613807776}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1690416284 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400232, guid: 80f30859c7192f54d9521129fbb8a24c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1816231969}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1693718405
 GameObject:
   m_ObjectHideFlags: 0
@@ -34158,256 +34512,87 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 100224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 1816231971, guid: 886f53015ad3c0f4393d1963f0c0f509, type: 3}
       propertyPath: m_Name
       value: Tank_1
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 1816231971, guid: 886f53015ad3c0f4393d1963f0c0f509, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -203
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.2
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalPosition.z
-      value: 86
+      value: 183
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
+    - target: {fileID: 3061285343860747714, guid: 886f53015ad3c0f4393d1963f0c0f509,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400224, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
+    - target: {fileID: 1816231974, guid: 886f53015ad3c0f4393d1963f0c0f509, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1251565994}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 80f30859c7192f54d9521129fbb8a24c, type: 3}
---- !u!4 &1816231970 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400230, guid: 80f30859c7192f54d9521129fbb8a24c,
+  m_SourcePrefab: {fileID: 100100000, guid: 886f53015ad3c0f4393d1963f0c0f509, type: 3}
+--- !u!114 &1816231972 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1816231972, guid: 886f53015ad3c0f4393d1963f0c0f509,
     type: 3}
   m_PrefabInstance: {fileID: 1816231969}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1816231971 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100224, guid: 80f30859c7192f54d9521129fbb8a24c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1816231969}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1816231972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816231971}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa7c8bce6baa4f247bb755b5a014087f, type: 3}
+  m_Script: {fileID: 11500000, guid: f63ab5cd3e7d18b4fa793b71c0f208a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shell: {fileID: 5409530, guid: 174f6b08da2e1f6459bf7a0217b1a2db, type: 3}
-  m_FireTransform: {fileID: 541543717}
-  lookRadius: 180
-  Audio: {fileID: 0}
---- !u!195 &1816231973
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816231971}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 4
-  m_Speed: 23
-  m_Acceleration: 20
-  avoidancePriority: 50
-  m_AngularSpeed: 160
-  m_StoppingDistance: 80
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &1816231974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816231971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b20a5c438c3f474ba67708ee6fca183, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1251565994}
---- !u!54 &1816231975
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816231971}
-  serializedVersion: 2
-  m_Mass: 10000
-  m_Drag: 12000
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
---- !u!82 &1816231976
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816231971}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d020fe217953c2e499625d9fbeb1fb28, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.593
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 164
-  DopplerLevel: 1
-  MinDistance: 50
-  MaxDistance: 120
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0.4464283
-      value: 0.46453857
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!65 &1816231978
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816231971}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3, y: 3, z: 5}
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1816250286
 GameObject:
   m_ObjectHideFlags: 0
@@ -35243,6 +35428,7 @@ GameObject:
   - component: {fileID: 1936427612}
   - component: {fileID: 1936427614}
   - component: {fileID: 1936427613}
+  - component: {fileID: 1936427615}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -35315,8 +35501,6 @@ MonoBehaviour:
   Maps:
   - {fileID: 1360586181}
   - {fileID: 28274197}
-  - {fileID: 0}
-  - {fileID: 0}
   health: {fileID: 1251565997}
   hostcon: {fileID: 2092347190}
   Audio: {fileID: 0}
@@ -35429,6 +35613,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timecounterbar: {fileID: 839645429}
+--- !u!114 &1936427615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936427608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b20a5c438c3f474ba67708ee6fca183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1251565994}
 --- !u!1 &1938093938
 GameObject:
   m_ObjectHideFlags: 0
@@ -36589,6 +36786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Training_Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 2397159790242827509, guid: cff765f727477af4dae788edea86462c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2397159790242827510, guid: cff765f727477af4dae788edea86462c,
         type: 3}

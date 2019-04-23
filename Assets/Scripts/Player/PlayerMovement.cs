@@ -31,9 +31,14 @@ public class PlayerMovement : MonoBehaviour
     {
         //Get the animator
         animator = this.gameObject.GetComponent<Animator>();
-        Debug.Log(StaticClass.GetLevel);
-        
-        if (StaticClass.GetLevel.ToString().Contains("Normal"))
+        //Debug.Log(StaticClass.GetLevel);
+
+        if (StaticClass.GetLevel == null)
+        {
+            SpeedbyLevel = 28;
+        }
+
+        else if (StaticClass.GetLevel.ToString().Contains("Normal"))
         {
             SpeedbyLevel = 28;
         }
@@ -42,13 +47,10 @@ public class PlayerMovement : MonoBehaviour
             SpeedbyLevel = 25;
         }
         else if (StaticClass.GetLevel.ToString().Contains("Nightmare"))
-        {
+        { 
             SpeedbyLevel = 23;
         }
-        else
-        {
-            SpeedbyLevel = 28;
-        }
+        
     }
 
     // Update is called once per frame
