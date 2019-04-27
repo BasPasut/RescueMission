@@ -145,7 +145,8 @@ namespace Complete
             for (int i = 0; i < a.Length; i++)
             {
                 print(a[i]);
-                if(a[i].name.Contains("Ground") || a[i].name.Contains("Building") || a[i].name.Contains("Oil") || a[i].name.Contains("Ruin"))
+                if(a[i].name.Contains("Ground") || a[i].name.Contains("Building") || a[i].name.Contains("Oil") || a[i].name.Contains("Ruin") 
+                    || a[i].name.Contains("Cube") || a[i].name.Contains("house") || a[i].name.Contains("Fence"))
                     return true;
             }
             return false;

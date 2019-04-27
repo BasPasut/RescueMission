@@ -26,16 +26,16 @@ public class SceneSelector : MonoBehaviour
         //  Maps[i].SetActive(false);
         //}
        // StaticClass.GetLevel = "Normal";
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 3; i++)
         {
-            if (Maps[i].name.Contains(StaticClass.GetMap))
+            if (!Maps[i].name.Contains(StaticClass.GetMap))
             {
-                Maps[i].SetActive(true);
-                return;
+                Maps[i].SetActive(false);
             }
             else
             {
-                Maps[i].SetActive(false);
+                Maps[i].SetActive(true);
+                return;
             }
         }
         

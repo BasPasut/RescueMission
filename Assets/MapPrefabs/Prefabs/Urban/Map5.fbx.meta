@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: f62b7ecf112238f4da14e0c6bd837845
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Building
+    100002: Building2
+    100004: building2:house
+    100006: building:left
+    100008: building:pCube9
+    100010: Fence
+    100012: Fence1
+    100014: Fence2
+    100016: Fence3
+    100018: fence3
+    100020: Fence4
+    100022: Fence5
+    100024: Fence6
+    100026: Fence7
+    100028: Fence8
+    100030: Floor8:pCube124
+    100032: group1
+    100034: group2
+    100036: house
+    100038: house1
+    100040: house2
+    100042: house3
+    100044: left
+    100046: left 1
+    100048: //RootNode
+    100050: pCube1
+    100052: pCube206
+    100054: pCube210
+    100056: pCube292
+    100058: pCube293
+    100060: pCube294
+    100062: pCube9
+    100064: Tank1:tank_hull
+    100066: Tank2
+    400000: Building
+    400002: Building2
+    400004: building2:house
+    400006: building:left
+    400008: building:pCube9
+    400010: Fence
+    400012: Fence1
+    400014: Fence2
+    400016: Fence3
+    400018: fence3
+    400020: Fence4
+    400022: Fence5
+    400024: Fence6
+    400026: Fence7
+    400028: Fence8
+    400030: Floor8:pCube124
+    400032: group1
+    400034: group2
+    400036: house
+    400038: house1
+    400040: house2
+    400042: house3
+    400044: left
+    400046: left 1
+    400048: //RootNode
+    400050: pCube1
+    400052: pCube206
+    400054: pCube210
+    400056: pCube292
+    400058: pCube293
+    400060: pCube294
+    400062: pCube9
+    400064: Tank1:tank_hull
+    400066: Tank2
+    2000000: building:left
+    2000002: left
+    2000004: left 1
+    2100000: lambert5
+    2100002: lambert1
+    2100004: Tank1_lambert8
+    2100006: Tank1_blinn1
+    2100008: Tank1_lambert3
+    2100010: Tank1_blinn2
+    2100012: building2_lambert5
+    2100014: lambert7
+    2100016: Floor8_lambert4
+    2300000: building2:house
+    2300002: building:pCube9
+    2300004: Fence
+    2300006: Fence1
+    2300008: Fence2
+    2300010: Fence3
+    2300012: Fence4
+    2300014: Fence5
+    2300016: Fence6
+    2300018: Fence7
+    2300020: Fence8
+    2300022: Floor8:pCube124
+    2300024: house
+    2300026: house1
+    2300028: house2
+    2300030: house3
+    2300032: pCube1
+    2300034: pCube206
+    2300036: pCube210
+    2300038: pCube292
+    2300040: pCube293
+    2300042: pCube294
+    2300044: pCube9
+    2300046: Tank1:tank_hull
+    3300000: building2:house
+    3300002: building:pCube9
+    3300004: Fence
+    3300006: Fence1
+    3300008: Fence2
+    3300010: Fence3
+    3300012: Fence4
+    3300014: Fence5
+    3300016: Fence6
+    3300018: Fence7
+    3300020: Fence8
+    3300022: Floor8:pCube124
+    3300024: house
+    3300026: house1
+    3300028: house2
+    3300030: house3
+    3300032: pCube1
+    3300034: pCube206
+    3300036: pCube210
+    3300038: pCube292
+    3300040: pCube293
+    3300042: pCube294
+    3300044: pCube9
+    3300046: Tank1:tank_hull
+    4300000: pCube1
+    4300002: building:pCube9
+    4300004: pCube210
+    4300006: pCube294
+    4300008: pCube9
+    4300010: pCube206
+    4300012: pCube293
+    4300014: pCube292
+    4300016: Tank1:tank_hull
+    4300018: building2:house
+    4300020: house
+    4300022: house1
+    4300024: house2
+    4300026: house3
+    4300028: Fence
+    4300030: Fence1
+    4300032: Fence2
+    4300034: Fence3
+    4300036: Fence4
+    4300038: Fence5
+    4300040: Fence6
+    4300042: Fence7
+    4300044: Fence8
+    4300046: Floor8:pCube124
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor8_lambert4
+    second: {fileID: 2100000, guid: 76c948e369898574393231209cb80d28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tank1_blinn1
+    second: {fileID: 2100000, guid: c49ffe4c1e214804999b3129707f72f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tank1_blinn2
+    second: {fileID: 2100000, guid: cfaeb0b4f2635c5419f3044af51e96cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tank1_lambert3
+    second: {fileID: 2100000, guid: cb6b956d38c2b1547b07d6894ec7b793, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tank1_lambert8
+    second: {fileID: 2100000, guid: 7652e48470b17b047af1b927456e5c90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: building2_lambert5
+    second: {fileID: 2100000, guid: b8436796f1fd16b458189d1b47a2edc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 4961bf9c4e650964bbcbe59bcd312e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: a80e8f99f932dea448c07741abecbf01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert7
+    second: {fileID: 2100000, guid: 7501faa3590080448aa24b2a889d82f3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Building1UV
+    second: {fileID: 2800000, guid: d671d4bdc922ea44ba12edf9b23b1366, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Building2UV
+    second: {fileID: 2800000, guid: b3ed8df40efe37e41bd60df952bacbb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FenceUV
+    second: {fileID: 2800000, guid: 93eca445402472846a6076bfc3149d0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FloorUV
+    second: {fileID: 2800000, guid: 6b6767e0ee531664f845a42fe734a4ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MapUV
+    second: {fileID: 2800000, guid: de36e3daf5ffddc439ac106e64fab867, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TankHullUV
+    second: {fileID: 2800000, guid: dcc6d818e374e0947902d6298572a8cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TankTurretUV
+    second: {fileID: 2800000, guid: a613728cea9d5ff4e8c322ecf39afe9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: background-1180666_1920
+    second: {fileID: 2800000, guid: 67bd12df62df3094f9e660bc9c5a1876, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
